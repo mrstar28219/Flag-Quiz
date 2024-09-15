@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Flag Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>2D Flag Quiz</h1>
+        <div id="quiz">
+            <img id="flagImage" src="" alt="Country Flag" />
+            <div id="options">
+                <button class="option" onclick="checkAnswer(this)">Option 1</button>
+                <button class="option" onclick="checkAnswer(this)">Option 2</button>
+                <button class="option" onclick="checkAnswer(this)">Option 3</button>
+                <button class="option" onclick="checkAnswer(this)">Option 4</button>
+            </div>
+            <p id="result"></p>
+            <button id="speakButton" onclick="speakCountryName()">🔊 Speak Country Name</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
